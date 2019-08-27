@@ -32,7 +32,7 @@ app.use(function (req, res, next) {
 
 Mongoose.connect("mongodb+srv://mongodb:mongodb@mycluster-ucvz5.mongodb.net/SMS?retryWrites=true&w=majority");
 
-const StudModel = Mongoose.model("studentdetails",{
+const StudModel = Mongoose.model("studentdetail",{
     sadmno:String,
     srollno:String,
     sname:String,
